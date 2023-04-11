@@ -23,7 +23,6 @@ const initialValuesRegister = {
 };
 
 export default function Register() {
-  const navigate = useNavigate();
 
   const register = async (values, onSubmitProps) => {
     await fetch("http://localhost:3001/auth/register",
